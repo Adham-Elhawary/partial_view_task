@@ -1,0 +1,18 @@
+﻿@model IEnumerable<partial_view_task.Models.Student>
+@{
+    Layout = "_facebook_layout";
+}
+@{
+    ViewData["Title"] = "Home Page";
+}
+<partial name="_Date" />
+<div class="text-center">
+    <h1 class="display-4">Hello Students </h1><br />
+</div>
+<a asp-controller="Students" asp-action="Index">List of Students</a>
+<br />
+<a asp-controller="Students" asp-action="Create">login</a>
+<br />
+<a asp-controller="Home" asp-action="Layout" target="_blank">Layout</a>
+<br />
+

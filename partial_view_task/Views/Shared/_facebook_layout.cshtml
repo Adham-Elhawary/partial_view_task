@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - University Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa;">
+
+    <!-- Header -->
+    <header style="background-color: #002147; color: white; padding: 1rem 0;">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div style="display: flex; align-items: center;">
+                    <img src="https://via.placeholder.com/50" alt="University Logo" style="margin-right: 15px;">
+                    <h1 style="margin: 0; font-size: 1.8rem;">University of Technology</h1>
+                </div>
+                <nav>
+                    <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">
+                        <li><a href="/" style="color: white; text-decoration: none;">Home</a></li>
+                        <li><a href="/Courses" style="color: white; text-decoration: none;">Courses</a></li>
+                        <li><a href="/Admissions" style="color: white; text-decoration: none;">Admissions</a></li>
+                        <li><a href="/Contact" style="color: white; text-decoration: none;">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div style="background: linear-gradient(rgba(0,33,71,0.8), rgba(0,33,71,0.8)), url('https://via.placeholder.com/1920x600') center/cover; color: white; padding: 4rem 0; text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Welcome to Future Education</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem;">Shaping Minds, Building Futures</p>
+        <button style="background-color: #e74c3c; color: white; border: none; padding: 12px 30px; border-radius: 25px; font-size: 1.1rem; cursor: pointer;">Apply Now</button>
+    </div>
+
+    <!-- Main Content -->
+    <main role="main" class="container" style="padding: 2rem 0;">
+        @RenderBody()
+    </main>
+
+    <!-- Features Section -->
+    <section style="background-color: #fff; padding: 3rem 0;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4" style="padding: 1.5rem;">
+                    <div style="background-color: #f8f9fa; padding: 2rem; border-radius: 10px;">
+                        <h3 style="color: #002147;">Programs</h3>
+                        <p>Explore our 200+ academic programs</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding: 1.5rem;">
+                    <div style="background-color: #f8f9fa; padding: 2rem; border-radius: 10px;">
+                        <h3 style="color: #002147;">Research</h3>
+                        <p>World-class research facilities</p>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding: 1.5rem;">
+                    <div style="background-color: #f8f9fa; padding: 2rem; border-radius: 10px;">
+                        <h3 style="color: #002147;">Campus Life</h3>
+                        <p>Vibrant student community</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #002147; color: white; padding: 3rem 0; margin-top: 3rem;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="margin-bottom: 2rem;">
+                    <h4 style="border-bottom: 2px solid #e74c3c; padding-bottom: 0.5rem;">Contact Us</h4>
+                    <p>
+                        123 University Road<br>
+                        City, State 12345<br>
+                        Phone: (123) 456-7890<br>
+                        Email: info@university.edu
+                    </p>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 2rem;">
+                    <h4 style="border-bottom: 2px solid #e74c3c; padding-bottom: 0.5rem;">Quick Links</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="#" style="color: white; text-decoration: none;">Academic Calendar</a></li>
+                        <li><a href="#" style="color: white; text-decoration: none;">Library</a></li>
+                        <li><a href="#" style="color: white; text-decoration: none;">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h4 style="border-bottom: 2px solid #e74c3c; padding-bottom: 0.5rem;">Follow Us</h4>
+                    <div style="display: flex; gap: 15px;">
+                        <a href="#" style="color: white; text-decoration: none;">Facebook</a>
+                        <a href="#" style="color: white; text-decoration: none;">Twitter</a>
+                        <a href="#" style="color: white; text-decoration: none;">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
