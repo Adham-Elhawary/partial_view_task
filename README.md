@@ -17,7 +17,7 @@ A simple yet effective ASP.NET MVC web application that demonstrates how to work
 ## 📂 Project Structure
 
 partial_view_task/
--┣ 📂 Controllers/
+--┣ 📂 Controllers/
 -┃ ┗ 📄 HomeController.cs # Handles main logic and view rendering
 -┣ 📂 Views/
 -┃ ┣ 📂 Home/
@@ -33,7 +33,6 @@ partial_view_task/
 -┃ ┗ 📄 site.css # Custom styling
 -┣ 📄 partial_view_task.sln # Solution file for Visual Studio
 -┗ 📄 Web.config # Application configuration
-
 ---
 
 ## 🛠️ Getting Started
