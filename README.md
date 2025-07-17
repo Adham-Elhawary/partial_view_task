@@ -17,23 +17,22 @@ A simple yet effective ASP.NET MVC web application that demonstrates how to work
 ## 📂 Project Structure
 
 partial_view_task/
-┣ Controllers/
-┃ ┗ HomeController.cs # Handles main logic and view rendering
-┣ Views/
-┃ ┣ Home/
-┃ ┃ ┣ Index.cshtml # Main view
-┃ ┃ ┗ _ProductPartial.cshtml# Partial view for product display
-┃ ┗ Shared/
-┃ ┗ _Layout.cshtml # Site layout and styling
-┣ Models/
-┃ ┗ Product.cs # Simple model representing a product
-┣ Scripts/
-┃ ┗ site.js # AJAX logic to dynamically load partial view
-┣ Content/
-┃ ┗ site.css # Custom styling
-┣ partial_view_task.sln # Solution file for Visual Studio
-┗ Web.config # Application configuration
-
+┣ 📂 Controllers/
+┃ ┗ 📄 HomeController.cs # Handles main logic and view rendering
+┣ 📂 Views/
+┃ ┣ 📂 Home/
+┃ ┃ ┣ 📄 Index.cshtml # Main view
+┃ ┃ ┗ 📄 _ProductPartial.cshtml # Partial view for product display
+┃ ┗ 📂 Shared/
+┃ ┗ 📄 _Layout.cshtml # Site layout and styling
+┣ 📂 Models/
+┃ ┗ 📄 Product.cs # Simple model representing a product
+┣ 📂 Scripts/
+┃ ┗ 📄 site.js # AJAX logic to dynamically load partial view
+┣ 📂 Content/
+┃ ┗ 📄 site.css # Custom styling
+┣ 📄 partial_view_task.sln # Solution file for Visual Studio
+┗ 📄 Web.config # Application configuration
 
 ---
 
