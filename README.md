@@ -14,6 +14,15 @@ A simple yet effective ASP.NET MVC web application that demonstrates how to work
 
 ---
 
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- [Visual Studio](https://visualstudio.microsoft.com/) (with ASP.NET and web development workload)
+- .NET Framework 4.x 
+
+---
+
 ## 📂 Project Structure 
 
  ```plaintext
@@ -36,13 +45,6 @@ partial_view_task/
 ┗ 📄 Web.config # Application configuration
 
 ---
-
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- [Visual Studio](https://visualstudio.microsoft.com/) (with ASP.NET and web development workload)
-- .NET Framework 4.x
 
 ### Run the Project
 
