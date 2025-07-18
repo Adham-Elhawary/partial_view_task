@@ -15,7 +15,7 @@ A simple yet effective ASP.NET MVC web application that demonstrates how to work
 ---
 
 ## 📂 Project Structure
-
+```plaintext
 partial_view_task/
 ┣ 📂 Controllers/
 ┃ ┗ 📄 HomeController.cs # Handles main logic and view rendering
